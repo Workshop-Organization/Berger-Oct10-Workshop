@@ -32,10 +32,6 @@ type Order @key(fields: "id") {
   """
   total: Float
 
-  """
-  The date the oder was made
-  """
-  orderDate: String
 
 }
 
