@@ -43,10 +43,6 @@ authorization:
   preview_directives: 
     enabled: true
 
-limits:
-  max_depth: 5
-  max_height: 10
-  max_aliases: 3
 
 coprocessor:
   url: https://coprocessor-wn3vwa6nlq-ue.a.run.app 
@@ -56,7 +52,7 @@ coprocessor:
       body: true
 
 preview_persisted_queries:
-  enabled: true
+  enabled: false
   safelist: 
     enabled: true
     require_id: false
