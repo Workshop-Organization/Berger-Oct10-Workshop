@@ -31,7 +31,7 @@ type Order @key(fields: "id") {
   The total cost of the order
   """
   total: Float
-  orderDateTime:String
+  orderDate:String
 
 
 }
